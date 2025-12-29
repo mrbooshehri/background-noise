@@ -50,6 +50,7 @@ class AmbientNoiseApp(App):
 
     .quote-panel {
         border: tall #445566;
+        border-bottom: none;
         padding: 1 2;
         height: 1fr;
         content-align: center middle;
@@ -58,6 +59,7 @@ class AmbientNoiseApp(App):
 
     .sound-panel {
         border: tall #2f4f4f;
+        border-top: none;
         padding: 1 2;
         height: 9;
     }
@@ -66,6 +68,8 @@ class AmbientNoiseApp(App):
         text-style: bold;
         color: #f2cc8f;
         margin-bottom: 1;
+        text-align: center;
+        width: 100%;
     }
 
     .sound-row {
